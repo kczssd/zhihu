@@ -82,7 +82,7 @@ writeanswer.addEventListener('click', () => {
         var API = 'http://127.0.0.1:8080/write';
         request.open('post', API, true);
         request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        request.send(data);
+        request.send('ques=' + id_ques + '&myanswer=' + data);
     })
     scroll();
 })
