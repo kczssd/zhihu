@@ -1,0 +1,348 @@
+body{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
+button{
+    outline: none;
+    border: none;
+}
+.top{
+    width: 100vw;
+    height: 52px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header{
+
+height: 52px;
+display: flex;
+align-items: center;
+box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.tubiao{
+    width: 64px;
+    height: 30px;
+}
+.header .top_content{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #8590A6;
+    white-space:nowrap;/*不换行 */
+}
+.header .active{
+    font-weight: 600;
+    color: #000000;
+}
+.header .active:after{
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 32px;
+    height: 3px;
+    background-color:#0084ff;
+}
+.header .search{
+    background-color: #f6f6f6;
+    width: 326px;
+    height: 32px;
+    border:1px solid #ebebeb;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    position: relative;
+}
+.search .search_content{
+    width: 256px;
+    height: 24px;
+    background-color: #f6f6f6;
+    border:none;
+    font-size: 16px;
+    margin-left: 10px;
+    outline: none;
+    
+}
+.search img{
+    width: 18px;
+    height: 18px;
+    margin-left: 54px;
+}
+.header .question{
+    width: 58px;
+    height: 34px;
+    border-radius: 3px;
+    background-color: #0084ff;
+    color: #ffffff;
+    margin-left: 14px;
+    white-space:nowrap;
+}
+.person{
+    width: 268px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.person #img_1{
+margin-left: 100px;
+
+}
+.person #img_2{            
+margin-left: 40px;
+}
+.person .touxiang{
+    width: 28px;
+    height: 28px;
+    margin-left: 47px;
+    border: 1px solid #000000;
+}
+/* main */
+.main{
+    display: flex;
+    justify-content: center;
+}
+/* main_left */
+.main_left{
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.main_left #newyear{
+    width: 716px;
+    height: 95px;
+    margin-bottom:10px;
+}
+.main_top{
+    width: 716px;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.main_top .active{
+    color: #0084ff;    
+}
+.main_left .main_content{
+    width: 716px;
+}
+.main_left .tuijian{
+    width: 676px;
+    height: 100px;
+    padding: 20px;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    background-color: #ffffff;
+}
+/* main_right */
+.main_right{
+    margin-left: 10px;
+}
+.main_right .card_1{
+    width: 296px;
+    height: 188px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.card_1 a{
+    display: inline-block;
+    width: 98px;
+    height: 94px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card_1 a img{
+    position: absolute;
+    bottom: 48px;
+    
+}
+.card_1 .write{
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+}
+.main_right .card_2{
+    width: 296px;
+    height: 146px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.card_2 .card2_content{
+    width: 266px;
+    height: 106px;
+    box-sizing: border-box;
+    border-top:1px solid #f6f6f6;
+    border-bottom:1px solid #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+.card2_content .num_read{
+    width: 133px;
+    height: 86px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(133,158,197);
+    border-right: 1px solid #f6f6f6;
+}
+.card2_content .num_zan{
+    width: 133px;
+    height: 86px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(133,158,197);
+}
+.main_right .card_3{
+    width: 296px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    color: rgb(133, 158, 197);
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.card_3 .shoucang{
+    width: 296px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.card_3 img{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.num_shoucang{
+    width: 28px;
+    height: 28px;
+    background-color: #f6f6f6;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 134px;
+}
+.num_guanzhu{
+    width: 28px;
+    height: 28px;
+    background-color: #f6f6f6;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 104px;
+}
+.card_3 .guanzhu{
+    width: 296px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+/* background */
+.tiwen_background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 26, .65);
+}
+.tiwen{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiwen_content{
+    position: relative;
+}
+.tiwen_inner{
+    width: 600px;
+    height: 300px;
+    background-color:#ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.tiwen_inner .touxiang{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: inline-block;
+}
+div #myquestion{
+    width: 520px;
+    height: 170px;
+    margin-top:30px;
+    margin-left:80px;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 24px;
+}
+div #submit{
+    width: 90px;
+    height: 34px;
+    background-color: #0084ff;
+    border-radius: 3px;
+    color: #ffffff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.tiwen_content>button{
+    position: absolute;
+    top: 20px;
+    left: 620px;
+    background: none;
+    border: none;
+}
+.tiwen #close{
+    width: 24px;
+    height: 24px;
+}
+/* search_list */
+.search_list{
+    width: 326px;
+    position: absolute;
+    left: 0;
+    top: 32px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.list_content{
+    width: 326px;
+    height: 40px;
+    border-bottom:1px solid #ebebeb;
+}
+.closelist{
+    width: 326px;
+    height: 20px;
+    color: #8590A6;
+    background-color: #ffffff;
+    border-bottom:1px solid #ebebeb;
+    text-align: center;
+}

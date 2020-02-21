@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>()首页-知乎</title>
+    <link href="./css/zhuye.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <a href=""><img class="tubiao" src="./img/zhihu.png" /></a>
+            <a href="" class="top_content active" id="test">首页</a>
+            <a href="" class="top_content">发现</a>
+            <a href="" class="top_content">等你来答</a>
+            <form class="search">
+                <input class="search_content" name="search" type="text" placeholder="" value="" />
+                <img id="search" src="./img/search.png">
+                <!-- <div class="search_list">
+                    <div class="closelist">关闭搜索</div>
+                    <div class="list_content">
+                        哈哈哈哈<br>
+                        hehehe
+                    </div>
+                </div> -->
+            </form>
+            <button class="question"><span style="padding: 0 16px;">提问</span></button>
+            <div class="person">
+                <img src="./img/tixing.png" id="img_1">
+                <img src="./img/xiaoxi.png" id="img_2">
+                <div class="touxiang"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_left">
+            <img src="./img/newyear.png" id="newyear">
+            <div class="main_top">
+                <span class="tui active" style="margin-left:20px;">推荐</span>
+                <span class="guan" style="margin-left:40px;margin-right:40px">关注</span>
+                <span class="re">热榜</span>
+            </div>
+            <div class="main_content">
+                <!-- <div class="tuijian">
+                    <h1>hkasudhf</h1>
+                    <h2>hjksd</h2>
+                </div> -->
+            </div>
+        </div>
+        <div class="main_right">
+            <div class="card_1">
+                <a href="">
+                    <img src="./img/huida.png">
+                    <div class="write">写回答</div>
+                </a>
+                <a href="">
+                    <img src="./img/wenzhang.png">
+                    <div class="write">写文章</div>
+                </a>
+                <a href="">
+                    <img src="./img/xiangfa.png">
+                    <div class="write">写想法</div>
+                </a>
+                <a href="">
+                    <img src="./img/shipin.png">
+                    <div class="write">发视频</div>
+                </a>
+                <a href="">
+                    <img src="./img/shaohou.png">
+                    <div class="write">稍后答</div>
+                </a>
+                <a href="">
+                    <img src="./img/caogao.png">
+                    <div class="write">草稿箱</div>
+                </a>
+            </div>
+            <div class="card_2">
+                <div class="card2_content">
+                    <div class="num_read">
+                        昨日被阅读数<br>
+                        <span id="read" style="font-size: 26px;color: #000000;">0</span>
+                    </div>
+                    <div class="num_zan">
+                        昨日被赞数<br>
+                        <span id="zan" style="font-size: 26px;color: #000000;">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card_3">
+                <div class="shoucang">
+                    <img src="./img/shoucang.png" />
+                    <span>我的收藏</span>
+                    <div class="num_shoucang">0</div>
+                </div>
+                <div class="guanzhu">
+                    <img src="./img/guanzhu.png" />
+                    <span>我关注的问题</span>
+                    <div class="num_guanzhu">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tiwen"></div>
+    <!-- <div class="tiwen_background">
+        <div class="tiwen">
+            <div class="tiwen_content">
+                <div class="tiwen_inner">
+                    <div>
+                        <div class="touxiang"></div>
+                        <textarea name="myquestion" id="myquestion" placeholder="写下你的问题，准确地描述问题更容易得到解答"></textarea>
+                        <button id="submit">发布问题</button>
+                    </div>
+                </div>
+                <button><img id="close" src="./img/close.png"></button>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="./js/zhuye.js"></script>
+    <script src="./js/zhuye_tiwen.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+
+</html>

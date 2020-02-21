@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/geren.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <a href=""><img class="tubiao" src="./img/zhihu.png" /></a>
+            <a href="" class="top_content" id="mainpage">首页</a>
+            <a href="" class="top_content">发现</a>
+            <a href="" class="top_content">等你来答</a>
+            <form class="search">
+                <input class="search_content" name="search" type="text" placeholder="" value="" />
+                <img src="./img/search.png">
+            </form>
+            <button class="question"><span style="padding: 0 16px;">提问</span></button>
+            <div class="person">
+                <img src="./img/tixing.png" id="img_1">
+                <img src="./img/xiaoxi.png" id="img_2">
+                <div class="touxiang"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="information">
+            <div class="information_content">
+                <div class="cover">
+
+                </div>
+                <div class="touxiang_big">
+
+                </div>
+                <!-- 添加 -->
+                <div class="myinfor">
+                    <div class="myinfor_head">
+                        <h1 class="head_content">
+                            <span id="myname">KCZS</span>
+                            <span id="myintroduce">学习JavaScript中</span>
+                        </h1>
+                    </div>
+                    <div class="myinfor_content"></div>
+                    <div class="myinfor_foot">
+                        <span class="gender">性别 男</span>
+                        <button class="changeinfor">编辑个人资料</button>
+                        <!-- <div class="returngeren">返回我的主页</div>
+                        <form class="cinfor">
+                            昵称:<input id="cmyname">
+                            简介:<input id="cmyintroduce">
+                            <select id="xing">
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_left">
+                <div class="left_head">
+                    <ul class="title">
+                        <li class="fenlei"><span class="huida active">回答</span></li>
+                        <li class="fenlei"><span class="tiwen">提问</span></li>
+                        <li class="fenlei"><span class="shoucang">收藏</span></li>
+                    </ul>
+                </div>
+                <div class="father">
+                    <!-- <div class="main_content" id="answer1">
+                        <h1>hkasudhf</h1>
+                        <h2 style="display: inline-block;">hjksd</h2>
+                        <span style="color: #0084ff;" id="xiu1" onclick="changeanswer(1)">修改</span>
+                        <textarea id="xiucontent1"></textarea>
+                        <button class="finish">完成</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="main_right">
+                <div class="follow">
+                    关注了<br>
+                    <span id="num_follow">0</span>
+                </div>
+                <div class="followed">
+                    关注者<br>
+                    <span id="num_followed">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/geren.js"></script>
+</body>
+
+</html>

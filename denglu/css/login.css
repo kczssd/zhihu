@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    outline: none;
+    border: none;
+}
+.back{
+    width: 100%;
+    height:100vh;
+    background-image: url("../img/background.png");
+    background-color: #b8e5f8;
+    background-size: cover;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.back .top{
+    display: block;
+    width: 100%;
+    height: 81px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.tubiao{
+    width: 128px;
+    height: 81px;
+    margin: 0 auto;
+}
+.back .center{
+    width: 100%;
+}
+.back .main{
+    width: 400px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+.main_top{
+    position: relative;
+    /* overflow: hidden; */
+    width: 352px;
+    margin-left: 24px;
+    margin-top: 0;
+    display: block;
+}
+.main_top .register{
+    margin-right: 20px;  
+    line-height: 60px;
+    font-size: 16px;
+    display: inline-block;
+}
+.main_top .log_with{
+    line-height: 60px;
+    font-size: 16px;
+    display: inline-block;
+}
+.main_top .active{
+    color: #1a1a1a;
+    font-weight: 600;
+    position: relative;
+}
+.main_top .active:after{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #0084ff;
+}
+.account{
+    /* background-color: blanchedalmond; */
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 24px;
+}
+.input_acc{
+    /* border: none; */
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.password{
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 12px;
+}
+.input_pas{
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.submit{
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 12px;
+}
+.submit_pas{
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.log_help{
+    margin-top: 12px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.other_phone{
+    color:  #175199;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 400;
+}
+.forget{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: darkgray;
+    font-weight: bolder;
+}
+.log_in{
+    height: 36px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0084ff;
+    border: 1px solid #0084ff;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.main_foot{
+    /* position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    margin-top: 10px;
+    padding: 12px 24px;
+    display: flex;
+    color: gray;
+    background-color: #f6f6f6;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+}   
+a{
+    text-decoration: none;
+    color: gray;
+}
+span{
+    color: #ffffff;
+}
+.foot{
+    width:100%;
+}
+.foot_1 a{
+    color: #ffffff;
+}
+.foot_1 a:after{
+    content: "\B7";
+    white-space: pre;
+    display: inline-block;
+}
+.foot_1 a:last-child:after{
+    display: none;
+}
+.foot_1{
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+}
+.foot_2 a{
+    color: #ffffff;
+}
+.foot_2 a:after{
+    content: "\B7";
+    white-space: pre;
+    display: inline-block;
+}
+.foot_2 a:last-child:after{
+    display: none;
+}
+.foot_2{
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+}
+.foot_3 a{
+    color: #ffffff;
+}
+.foot_3 a:after{
+    content: "\B7";
+    white-space: pre;
+    display: inline-block;
+}
+
+.foot_3{
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+}

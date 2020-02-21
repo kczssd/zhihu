@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>问题</title>
+    <link href="./css/wenti.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <a href=""><img class="tubiao" src="./img/zhihu.png" /></a>
+            <a href="" class="top_content" id="mainpage">首页</a>
+            <a href="" class="top_content">发现</a>
+            <a href="" class="top_content">等你来答</a>
+            <form class="search">
+                <input class="search_content" name="search" type="text" placeholder="" value="" />
+                <img src="./img/search.png">
+            </form>
+            <button class="question"><span style="padding: 0 16px;">提问</span></button>
+            <div class="person">
+                <img src="./img/tixing.png" id="img_1">
+                <img src="./img/xiaoxi.png" id="img_2">
+                <div class="touxiang"></div>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question_content">
+            <h1 class="now_ques"></h1>
+            <h2 class="now_des"></h2>
+            <div class="question_foot">
+                <button class="writeanswer">写回答</button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_left">
+            <div class="myanswer">
+                <div class="identify">
+                    <div class="touxiang"></div>
+
+                </div>
+                <form>
+                    <textarea name="myanswer" placeholder="写回答..." id="myanswer"></textarea>
+                </form>
+                <button id="sentanswer">提交回答</button>
+            </div>
+            <div class="findall">
+                <span class="allanswer">查看全部?回答</span>
+            </div>
+            <div class="answer">
+                <div class="answer_content">
+                    <!-- 回答内容 -->
+                </div>
+                <div class="answer_foot foot1">
+                    <div class="foot_top">
+                        <img src="./img/zan.png" /><span class="num_zan" id="zan1" onclick="sentnum('zan',1)">赞</span>
+                        <img src="./img/cai.png" /><span onclick="sentnum('cai',1)">踩</span>
+                        <img src="./img/pinlun.png" /><span class="num_pinlun" id="pin1">评论</span>
+                        <img src="./img/shoucang.png" /><span onclick="sentnum('shou',1)">收藏</span>
+                    </div>
+                    <!-- <div class="pinlunqu">
+                        <div class="pinlun">
+                            <h1>name????</h1>
+                            <p>我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述我是描述</p>
+                        </div>
+                        <div class="mypinlun">
+                            <input class="mypinlun_content" placeholder="评论...">
+                            <div class="sendpinlun">
+                                发送
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="moreanswer">
+                <div class="moreanswer_head">————————————— 更多回答 —————————————</div>
+                <div class="answer_content">
+                    <!-- 回答内容 -->
+                </div>
+                <div class="answer_foot foot2">
+                    <div class="foot_top">
+                        <img src="./img/zan.png" /><span class="num_zan" id="zan2" onclick="sentnum('zan',2)">赞</span>
+                        <img src="./img/cai.png" /><span onclick="sentnum('cai',2)">踩</span>
+                        <img src="./img/pinlun.png" /><span class="num_pinlun" id="pin2">评论</span>
+                        <img src="./img/shoucang.png" /><span onclick="sentnum('shou',2)">收藏</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="nextanswer">
+                <div class="answer_content">
+                </div>
+                <div class="foot_top">
+                    <img src="./img/zan.png" /><span id="num_zan">?赞</span>
+                    <img src="./img/cai.png" /><span>踩</span>
+                    <img src="./img/pinlun.png" /><span id="num_pinlun">?评论</span>
+                    <img src="./img/shoucang.png" /><span>收藏</span>
+                </div>
+            </div> -->
+            <div class="findall">
+                <span class="allanswer">查看全部?回答</span>
+            </div>
+        </div>
+        <!-- <div class="main_right"></div> -->
+    </div>
+    <script src="./js/wenti.js"></script>
+</body>
+
+</html>
